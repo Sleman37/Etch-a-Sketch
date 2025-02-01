@@ -1,4 +1,11 @@
 .container {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
+}
+
+.square {
+    border: solid;
+    width: 5.882%;
+    height: 50px;
 }
