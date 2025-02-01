@@ -7,5 +7,10 @@ for (let i = 0; i < 256; i++) {
     divList.push(divSquare)
 }
 
+divList.forEach(divSquare => {
+    divSquare.addEventListener("mouseover", e => {
+        divSquare.classList.add("colorChange")
+    })
+})
 
 container.append(...divList)

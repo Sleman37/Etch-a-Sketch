@@ -9,3 +9,7 @@
     width: 5.882%;
     height: 50px;
 }
+
+.colorChange {
+    background-color: red;
+}
