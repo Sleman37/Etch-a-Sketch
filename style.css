@@ -6,10 +6,21 @@
 
 .square {
     border: solid;
-    width: 5.882%;
+    flex: 1 0 5.882%;
     height: 50px;
 }
 
 .colorChange {
-    background-color: red;
+    background-color: blue;
+}
+
+.btn {
+    margin-left: 45%;
+    margin-bottom: 10px;
+    height: 60px;
+    width: 120px;
+    background-color: blue;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
 }
