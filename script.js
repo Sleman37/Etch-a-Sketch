@@ -32,7 +32,10 @@ btn.addEventListener("click", e => {
             }
             divList.forEach(divSquare => {
                 divSquare.addEventListener("mouseover", e => {
-                    divSquare.classList.add("colorChange")
+                    let red = Math.floor(Math.random() * 256)
+                    let green = Math.floor(Math.random() * 256)
+                    let blue = Math.floor(Math.random() * 256)
+                    divSquare.style.backgroundColor = "rgb(" + red + "," + green + "," + blue + ")"
                 })
             })
             container.append(...divList)
@@ -45,7 +48,10 @@ btn.addEventListener("click", e => {
 
 divList.forEach(divSquare => {
     divSquare.addEventListener("mouseover", e => {
-        divSquare.classList.add("colorChange")
+        let red = Math.floor(Math.random() * 256)
+        let green = Math.floor(Math.random() * 256)
+        let blue = Math.floor(Math.random() * 256)
+        divSquare.style.backgroundColor = "rgb(" + red + "," + green + "," + blue + ")"
     })
 })
 
